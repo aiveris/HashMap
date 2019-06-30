@@ -7,7 +7,6 @@ public class Message {
     public Message(User sender, String text) {
         this.sender = sender;
         this.text = text;
-
     }
 
     public User getSender() {

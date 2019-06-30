@@ -7,6 +7,7 @@ public class Message {
     public Message(User sender, String text) {
         this.sender = sender;
         this.text = text;
+
     }
 
     public User getSender() {
@@ -15,5 +16,11 @@ public class Message {
 
     public String getText() {
         return text;
+    }
+
+    public class Like{
+        public Like(User user){
+            System.out.println(user + " liked");
+        }
     }
 }
